@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Node 小样模块",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "wxy",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.7.7"
+  },
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
+}
