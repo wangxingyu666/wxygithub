@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "NodeJS/npm包管理",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - NodeJS/npm包管理",
+			"detail": "node build.js"
+		}
+	]
+}

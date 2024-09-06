@@ -1,7 +1,7 @@
-/* const path=require('path')
-console.log(path.resolve(__filename))
-console.log(path.resolve(__dirname)) */
+/*  const path=require('path')
+console.log(path.resolve(__filename)) */
+//console.log(path.resolve(__dirname)) 
 
-const argv=process.argv
-//console.log('参数',argv)
-console.log(argv.slice(2))
+var argv=process.argv.slice(2)
+console.log('参数',argv)
+//console.log(argv.slice(2))

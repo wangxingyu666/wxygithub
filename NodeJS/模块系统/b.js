@@ -1,2 +1,2 @@
 var config = require('./a.js')
-console.log(config)
+console.log('导入内容',config)

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <met name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj={
+            fun1(){
+                console.log('fun1:',this)
+            },
+            fun2:()=>{
+                console.log('fun2:',this)
+            },
+        }
+        obj.fun1()
+        obj.fun2()
+    </script>
+</body>
+</html>

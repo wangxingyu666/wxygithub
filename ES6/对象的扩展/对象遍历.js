@@ -4,6 +4,10 @@ let obj={
     skill:'中国武术',
 }
 
-console.log(Object.keys(obj))
+/* console.log(Object.keys(obj))
 console.log(Object.values(obj))
-console.log(Object.entries(obj))
+console.log(Object.entries(obj)) */
+Object.defineProperty(obj,'skill',{
+    enumerable:false
+})
+console.log(Object.keys(obj))

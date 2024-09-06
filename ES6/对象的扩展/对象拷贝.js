@@ -1,9 +1,18 @@
 //浅拷贝
 /* let a={name:'后端'}
 let b=a
-b.name='前端'
-console.log(a)
-console.log(b) */
+b.name='前端' */
+//var a={name:''前端}
+//var b={...a}
+//console.log(a)
+//console.log(b)
+
+/* var obj={}
+var obj2={b:2}
+var obj3={c:3}
+Object.assign(obj,obj2,obj3)
+console.log(obj) */
+
 
 //深拷贝
 let obj1={

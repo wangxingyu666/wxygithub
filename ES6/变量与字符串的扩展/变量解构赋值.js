@@ -10,15 +10,16 @@ var foods = {
 //var best=foods.best
 //var bad=foods.bad
 //var { best,bad }=foods
+//console.log('best',best)
 
 //console.log(best)
 //console.log(bad)
 
-//var{best:best1,bad:bad1}=foods
-//console.log(best1)
-//console.log(bad1)
+/* var{best:best1,bad:bad1}=foods
+console.log(best1)
+console.log(bad1) */
 
-const address={
+var address={
     city:{
         name :'南京市',
         area:{

@@ -1,17 +1,27 @@
 //from:对象转数组
 // from() flat()
-/* let obj={
-  0:'a',
-  1:'b',
-  length:2,
+/* var obj = {
+  0: 'a',
+  1: 'b',
+  length: 2,
 }
-let arrs=Array.from(obj)
-console.log(arrs) */
+var arr = Array.from(obj)
+console.log(arr) */
+
+/* var arr=[1,2,3,2,1]
+var set =new Set(arr)
+Array.from(set)
+console.log(set) */
+
 
 //flat:数组扁平化
-/* let arrs=[1,2,[3,4,[5]]]
-arrs=arrs.flat(3)
-console.log(arrs) */
+/* let arr=[1,2,[3,4,[5]]]
+arr.flat()
+console.log(arr)
+arr.flat(2)
+console.log(arr) */
+//arrs=arrs.flat(3)
+//console.log(arrs)
 
 //sort:排序
 let arrs=[3,4,1,8,5]
