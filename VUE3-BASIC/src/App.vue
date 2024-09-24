@@ -57,7 +57,7 @@
   <GoodsForm />
   <HelloWorld />
   <Drawer />
-  <Progress />
+
   </div>
 </template>
 
