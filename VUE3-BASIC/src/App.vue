@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Mustache />
+  <!-- <Mustache />
   <AttributeBinding />
   <ClassBinding />
   <StyleBinding />
@@ -45,11 +45,25 @@
   <WuKong6 />
   <WuKong7 />
   <ScrollDemo />
-  <DOM />
+  <DOM /> -->
+ <!--  <UserForm />
+  <UserProfileParent />
+  <UserFormParent />
+  <SendEmail /> -->
+  <DataFetcher />
+  <CardParent />
+  <EmailFormParent />
+  <loginFrame />
+  <GoodsForm />
+  <HelloWorld />
+  <Drawer />
+  <Progress />
   </div>
 </template>
 
 <script setup>
+//import Progress from './components/Progress.vue';
+
 //import MethodsNoArg from './components/MethodsNoArg.vue';
 //import MethodsWithArg from './components/MethodsWithArg.vue';
 //import BasicCondition from './components/BasicCondition.vue';
@@ -66,7 +80,18 @@
 //import InputModel from './components/InputModel.vue';
 //import CustomInput from './components/CustomInput.vue';
 //import Modify from './components/Modify.vue';
-import DOM from './components/DOM.vue';
+//import DOM from './components/DOM.vue';
+//import UserForm from './components/UserForm.vue';
+//import CardParent from './components/CardParent.vue';
+//import DataFetcher from './components/DataFetcher.vue';
+//import EmailFormParent from './components/EmailFormParent.vue';
+import Drawer from './components/Drawer.vue';
+//import GoodsForm from './components/GoodsForm.vue';
+//import HelloWorld from './components/HelloWorld.vue';
+//import loginFrame from './components/loginFrame.vue';
+//import SendEmail from './components/SendEmail.vue';
+//import UserFormParent from './components/UserFormParent.vue';
+//import UserProfileParent from './components/UserProfileParent.vue';
 //import DateTimePickerPrent from './components/DateTimePickerPrent.vue';
 //import DateTimePicker from './components/DateTimePicker.vue';
 //import ParentComp from './components/ParentComp.vue';
