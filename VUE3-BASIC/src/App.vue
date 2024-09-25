@@ -57,13 +57,17 @@
   <GoodsForm />
   <HelloWorld />
   <Drawer />
-
+  <Rate />
+  <Carousel />
+  <Transfer />
+  <Shop />
   </div>
 </template>
 
 <script setup>
 //import Progress from './components/Progress.vue';
-
+//import Transfer from './components/Transfer.vue';
+//import Shop from './components/Shop.vue';
 //import MethodsNoArg from './components/MethodsNoArg.vue';
 //import MethodsWithArg from './components/MethodsWithArg.vue';
 //import BasicCondition from './components/BasicCondition.vue';
@@ -85,8 +89,10 @@
 //import CardParent from './components/CardParent.vue';
 //import DataFetcher from './components/DataFetcher.vue';
 //import EmailFormParent from './components/EmailFormParent.vue';
-import Drawer from './components/Drawer.vue';
-//import GoodsForm from './components/GoodsForm.vue';
+//import Drawer from './components/Drawer.vue';
+//import Carousel from './components/Carousel.vue';
+//import Rate from './components/Rate.vue';
+import GoodsForm from './components/GoodsForm.vue';
 //import HelloWorld from './components/HelloWorld.vue';
 //import loginFrame from './components/loginFrame.vue';
 //import SendEmail from './components/SendEmail.vue';
