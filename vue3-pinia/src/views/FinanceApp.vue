@@ -34,7 +34,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from "vue";
-import { useFinanceStore } from '../stores/useFinanceStore';
+import { useFinanceStore } from '../stores/useFinance';
 
 const financeStore = useFinanceStore();
 
